@@ -1,0 +1,15 @@
+C:\Users\15028\Desktop\HangmanFinalProject\HangmanAnimalEdition\bin\Debug\net6.0\HangmanAnimalEdition.exe
+C:\Users\15028\Desktop\HangmanFinalProject\HangmanAnimalEdition\bin\Debug\net6.0\HangmanAnimalEdition.deps.json
+C:\Users\15028\Desktop\HangmanFinalProject\HangmanAnimalEdition\bin\Debug\net6.0\HangmanAnimalEdition.runtimeconfig.json
+C:\Users\15028\Desktop\HangmanFinalProject\HangmanAnimalEdition\bin\Debug\net6.0\HangmanAnimalEdition.dll
+C:\Users\15028\Desktop\HangmanFinalProject\HangmanAnimalEdition\bin\Debug\net6.0\HangmanAnimalEdition.pdb
+C:\Users\15028\Desktop\HangmanFinalProject\HangmanAnimalEdition\obj\Debug\net6.0\HangmanAnimalEdition.csproj.AssemblyReference.cache
+C:\Users\15028\Desktop\HangmanFinalProject\HangmanAnimalEdition\obj\Debug\net6.0\HangmanAnimalEdition.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\15028\Desktop\HangmanFinalProject\HangmanAnimalEdition\obj\Debug\net6.0\HangmanAnimalEdition.AssemblyInfoInputs.cache
+C:\Users\15028\Desktop\HangmanFinalProject\HangmanAnimalEdition\obj\Debug\net6.0\HangmanAnimalEdition.AssemblyInfo.cs
+C:\Users\15028\Desktop\HangmanFinalProject\HangmanAnimalEdition\obj\Debug\net6.0\HangmanAnimalEdition.csproj.CoreCompileInputs.cache
+C:\Users\15028\Desktop\HangmanFinalProject\HangmanAnimalEdition\obj\Debug\net6.0\HangmanAnimalEdition.dll
+C:\Users\15028\Desktop\HangmanFinalProject\HangmanAnimalEdition\obj\Debug\net6.0\refint\HangmanAnimalEdition.dll
+C:\Users\15028\Desktop\HangmanFinalProject\HangmanAnimalEdition\obj\Debug\net6.0\HangmanAnimalEdition.pdb
+C:\Users\15028\Desktop\HangmanFinalProject\HangmanAnimalEdition\obj\Debug\net6.0\HangmanAnimalEdition.genruntimeconfig.cache
+C:\Users\15028\Desktop\HangmanFinalProject\HangmanAnimalEdition\obj\Debug\net6.0\ref\HangmanAnimalEdition.dll
