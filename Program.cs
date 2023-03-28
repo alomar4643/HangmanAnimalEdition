@@ -13,7 +13,7 @@ namespace HangmanAnimalEdition
 			Console.WriteLine("Press ~ to exit\n");
 			Console.WriteLine("Welcome to Hangman!- Animal Edition");
 			Console.WriteLine("------------------------\n");
-			Console.WriteLine("Enter your first guess");
+			Console.WriteLine("Enter your first guess; Hint: All words have 5 letters");
 
 			string[] listOfWordsAvailable = new string[11];
 
@@ -22,12 +22,12 @@ namespace HangmanAnimalEdition
 			listOfWordsAvailable[2] = "moose";
 			listOfWordsAvailable[3] = "camel";
 			listOfWordsAvailable[4] = "mouse";
-			listOfWordsAvailable[5] = "cat";
-			listOfWordsAvailable[6] = "dog";
-			listOfWordsAvailable[7] = "rat";
-			listOfWordsAvailable[8] = "rabbit";
-			listOfWordsAvailable[9] = "cow";
-			listOfWordsAvailable[10] = "pig";
+			listOfWordsAvailable[5] = "snake";
+			listOfWordsAvailable[6] = "sheep";
+			listOfWordsAvailable[7] = "skunk";
+			listOfWordsAvailable[8] = "snail";
+			listOfWordsAvailable[9] = "whale";
+			listOfWordsAvailable[10] = "zebra";
 
 			Class1 class1 = new Class1();
 
