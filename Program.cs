@@ -15,13 +15,19 @@ namespace HangmanAnimalEdition
 			Console.WriteLine("------------------------\n");
 			Console.WriteLine("Enter your first guess");
 
-			string[] listOfWordsAvailable = new string[5];
+			string[] listOfWordsAvailable = new string[11];
 
 			listOfWordsAvailable[0] = "horse";
 			listOfWordsAvailable[1] = "koala";
 			listOfWordsAvailable[2] = "moose";
 			listOfWordsAvailable[3] = "camel";
 			listOfWordsAvailable[4] = "mouse";
+			listOfWordsAvailable[5] = "cat";
+			listOfWordsAvailable[6] = "dog";
+			listOfWordsAvailable[7] = "rat";
+			listOfWordsAvailable[8] = "rabbit";
+			listOfWordsAvailable[9] = "cow";
+			listOfWordsAvailable[10] = "pig";
 
 			Class1 class1 = new Class1();
 
@@ -35,7 +41,7 @@ namespace HangmanAnimalEdition
 			//i++ increments the variable by 1
 			for (int i = 0; i < chosenWord.Length; i++)
 
-				//char guess displays the number of letters in the words of the list of words available. This is represented by the letter 'X'
+				//char guess displays the number of letters in the words of the list of words available. This is represented by the symbol '*'
 				guess[i] = '*';
 
 			while (true)
@@ -57,6 +63,7 @@ namespace HangmanAnimalEdition
 						}
 						if (Array.IndexOf(guess, '*') == -1)
 						{
+							Console.WriteLine("-----------------------\n");
 							Console.WriteLine("Congrats you won!");
 							break;
 						}
@@ -68,6 +75,7 @@ namespace HangmanAnimalEdition
 
 						if (lives == 0)
 						{
+							Console.WriteLine("-----------------------\n");
 							Console.WriteLine("Sorry you Lost!");
 							break;
 						}
