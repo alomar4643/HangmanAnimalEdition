@@ -1,23 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\15028\\Desktop\\HangmanFinalProject\\HangmanAnimalEdition\\HangmanAnimalEdition.csproj": {}
+    "X:\\Programming\\CodeLouisville\\HangmanAnimalEdition\\HangmanAnimalEdition.csproj": {}
   },
   "projects": {
-    "C:\\Users\\15028\\Desktop\\HangmanFinalProject\\HangmanAnimalEdition\\HangmanAnimalEdition.csproj": {
+    "X:\\Programming\\CodeLouisville\\HangmanAnimalEdition\\HangmanAnimalEdition.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\15028\\Desktop\\HangmanFinalProject\\HangmanAnimalEdition\\HangmanAnimalEdition.csproj",
+        "projectUniqueName": "X:\\Programming\\CodeLouisville\\HangmanAnimalEdition\\HangmanAnimalEdition.csproj",
         "projectName": "HangmanAnimalEdition",
-        "projectPath": "C:\\Users\\15028\\Desktop\\HangmanFinalProject\\HangmanAnimalEdition\\HangmanAnimalEdition.csproj",
-        "packagesPath": "C:\\Users\\15028\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\15028\\Desktop\\HangmanFinalProject\\HangmanAnimalEdition\\obj\\",
+        "projectPath": "X:\\Programming\\CodeLouisville\\HangmanAnimalEdition\\HangmanAnimalEdition.csproj",
+        "packagesPath": "C:\\Users\\Nate\\.nuget\\packages\\",
+        "outputPath": "X:\\Programming\\CodeLouisville\\HangmanAnimalEdition\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Users\\Nate\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\15028\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Nate\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Nate\\AppData\\Roaming\\NuGet\\config\\Godot.Offline.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -43,14 +45,23 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.3, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.4.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -59,7 +70,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

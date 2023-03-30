@@ -15,31 +15,15 @@ namespace HangmanAnimalEdition
 			Console.WriteLine("------------------------\n");
 			Console.WriteLine("Enter your first guess; Hint: All words have 5 letters");
 
-			string[] listOfWordsAvailable = new string[11];
+            Class1 class1 = new Class1();
+			string[] listOfWordsAvailable = class1.GetListOfAnimals();
+			string chosenWord = class1.GetChosenWord(listOfWordsAvailable);
+            char[] guess = new char[chosenWord.Length];
+            var lives = 6;
 
-			listOfWordsAvailable[0] = "horse";
-			listOfWordsAvailable[1] = "koala";
-			listOfWordsAvailable[2] = "moose";
-			listOfWordsAvailable[3] = "camel";
-			listOfWordsAvailable[4] = "mouse";
-			listOfWordsAvailable[5] = "snake";
-			listOfWordsAvailable[6] = "sheep";
-			listOfWordsAvailable[7] = "skunk";
-			listOfWordsAvailable[8] = "snail";
-			listOfWordsAvailable[9] = "whale";
-			listOfWordsAvailable[10] = "zebra";
 
-			Class1 class1 = new Class1();
-
-			//Random object will generate a random word from the list above
-			Random random = new Random();
-			var index = random.Next(listOfWordsAvailable.Length);
-			var lives = 6;
-			string chosenWord = listOfWordsAvailable[index];
-			char[] guess = new char[chosenWord.Length];
-
-			//i++ increments the variable by 1
-			for (int i = 0; i < chosenWord.Length; i++)
+            //i++ increments the variable by 1
+            for (int i = 0; i < chosenWord.Length; i++)
 
 				//char guess displays the number of letters in the words of the list of words available. This is represented by the symbol '*'
 				guess[i] = '*';
