@@ -15,4 +15,4 @@ Implement a “master loop” console application where the user can repeatedly 
 
 Create a dictionary or list, populate it with several values, retrieve at least one value, and use it in your program 
 
-Implement a log that records errors, invalid inputs, or other important events and writes them to a text file- Error Handling
+Create 3 or more unit tests for your application
